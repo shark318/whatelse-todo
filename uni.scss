@@ -1,0 +1,44 @@
+/* 「还有什么」全局 SCSS 变量
+ *
+ * 说明：设计 Token 的完整定义（颜色、主题变量）在 App.vue 的全局样式中，
+ *      以 CSS 变量形式提供，因为主题需要在运行时切换。
+ *      这里只保留 uni-app 内置组件会读取的基础变量。
+ */
+
+/* 品牌色 */
+$uni-color-primary: #3A7AFE;
+$uni-color-success: #34C759;
+$uni-color-warning: #FF9500;
+$uni-color-error: #FF3B30;
+
+/* 文字 */
+$uni-text-color: #1A1A1A;
+$uni-text-color-inverse: #FFFFFF;
+$uni-text-color-grey: #8A8F99;
+$uni-text-color-disable: #C0C4CC;
+
+/* 背景 */
+$uni-bg-color: #F7F8FA;
+$uni-bg-color-grey: #F7F8FA;
+$uni-bg-color-hover: #F0F1F3;
+$uni-bg-color-mask: rgba(0, 0, 0, 0.4);
+
+/* 边框 */
+$uni-border-color: #EDEFF2;
+
+/* 字号 */
+$uni-font-size-sm: 24rpx;
+$uni-font-size-base: 32rpx;
+$uni-font-size-lg: 34rpx;
+
+/* 间距 */
+$uni-spacing-row-sm: 12rpx;
+$uni-spacing-row-base: 32rpx;
+$uni-spacing-col-sm: 12rpx;
+$uni-spacing-col-base: 24rpx;
+
+/* 圆角 */
+$uni-border-radius-sm: 8rpx;
+$uni-border-radius-base: 16rpx;
+$uni-border-radius-lg: 24rpx;
+$uni-border-radius-circle: 999rpx;
